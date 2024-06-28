@@ -3,6 +3,7 @@ import Header from "./components/Header";
 import FoodList from "./components/FoodList";
 import AddFoodForm from "./components/AddFoodForm";
 import TotalCalories from "./components/TotalCalories";
+import "./blocks/App.css";
 
 const App = () => {
   const [foods, setFoods] = useState([]);
