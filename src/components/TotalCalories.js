@@ -3,7 +3,7 @@ import React from "react";
 const TotalCalories = ({ total }) => {
   return (
     <div>
-      <h2>Total calories: {total} kcal</h2>
+      <h2 className="text-center">Total calories: {total} kcal</h2>
     </div>
   );
 };

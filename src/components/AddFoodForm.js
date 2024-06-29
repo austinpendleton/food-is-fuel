@@ -12,7 +12,7 @@ const AddFoodForm = ({ onAddFood }) => {
   };
 
   return (
-    <form onSubmit={handleSubmit}>
+    <form className="flex justify-center" onSubmit={handleSubmit}>
       <input
         type="text"
         placeholder="Food name"
