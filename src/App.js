@@ -3,6 +3,7 @@ import Header from "./components/Header";
 import FoodList from "./components/FoodList";
 import AddFoodForm from "./components/AddFoodForm";
 import TotalCalories from "./components/TotalCalories";
+import DateDisplay from "./components/DateDisplay";
 import "./blocks/App.css";
 
 const App = () => {
@@ -17,6 +18,7 @@ const App = () => {
   return (
     <div>
       <Header />
+      <DateDisplay />
       <AddFoodForm onAddFood={addFood} />
       <FoodList foods={foods} />
       <TotalCalories total={totalCalories} />
