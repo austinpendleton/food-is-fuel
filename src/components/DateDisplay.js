@@ -9,7 +9,7 @@ const DateDisplay = () => {
     day: "numeric",
   });
 
-  return <p className="text-center">{formattedDate}</p>;
+  return <p className="text-center my-6 text-lg">{formattedDate}</p>;
 };
 
 export default DateDisplay;

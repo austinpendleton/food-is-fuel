@@ -36,7 +36,7 @@ const App = () => {
       <FoodList foods={foods} />
       <button
         onClick={toggleExerciseForm}
-        className="bg-blue-500 text-white py-2 px-4 rounded"
+        className="bg-blue-500 text-white py-2 px-4 rounded my-6"
       >
         {showExerciseForm ? "Hide Exercise Form" : "Add Exercise"}
       </button>
