@@ -64,3 +64,5 @@ const GoalPage = ({ setGoal }) => {
     </form>
   );
 };
+
+export default GoalPage;
