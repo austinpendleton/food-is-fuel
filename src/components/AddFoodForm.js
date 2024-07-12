@@ -25,7 +25,9 @@ const AddFoodForm = ({ onAddFood }) => {
         value={calories}
         onChange={(event) => setCalories(event.target.value)}
       />
-      <button type="submit">Add</button>
+      <button className="bg-blue-500" type="submit">
+        Add
+      </button>
     </form>
   );
 };
