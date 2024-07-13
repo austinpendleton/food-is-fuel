@@ -4,12 +4,22 @@
   font-family: "Playwrite AU VIC", sans-serif;
 }
 body {
+  background-color: #b5c39e;
+  color: #000;
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
     "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+}
+
+html,
+#root {
+  height: 100%;
+}
+h1 {
+  color: #ff6f61;
 }
 
 code {
