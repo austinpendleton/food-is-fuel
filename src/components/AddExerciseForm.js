@@ -34,7 +34,8 @@ const AddExerciseForm = ({ onAddExercise }) => {
       />
       <button
         type="submit"
-        className="bg-blue-500 text-white py-2 px-4 rounded"
+        className="bg-pink-500 text-white py-2 px-4 rounded mb-4"
+        style={{ backgroundColor: "#ff6f61" }}
       >
         Add Exercise
       </button>
