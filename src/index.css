@@ -21,6 +21,9 @@ html,
 h1 {
   color: #ff6f61;
 }
+button {
+  font-family: "Playfair Display", serif;
+}
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
