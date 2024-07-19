@@ -18,12 +18,14 @@ const AddFoodForm = ({ onAddFood }) => {
         placeholder="Food name"
         value={name}
         onChange={(event) => setName(event.target.value)}
+        className="input-box w-full px-4 py-2 border rounded"
       />
       <input
         type="number"
         placeholder="Calories"
         value={calories}
         onChange={(event) => setCalories(event.target.value)}
+        className="input-box w-full px-4 py-2 border rounded"
       />
       <button className="bg-blue-500" type="submit">
         Add

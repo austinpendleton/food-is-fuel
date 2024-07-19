@@ -25,6 +25,11 @@ button {
   font-family: "Playfair Display", serif;
 }
 
+.input-box {
+  height: 50px;
+  font-family: "Playfair Display", serif;
+}
+
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
