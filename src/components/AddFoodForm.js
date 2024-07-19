@@ -25,7 +25,7 @@ const AddFoodForm = ({ onAddFood }) => {
         placeholder="Calories"
         value={calories}
         onChange={(event) => setCalories(event.target.value)}
-        className="input-box w-full px-4 py-2 border rounded"
+        className="input-box w-6/12 px-4 py-2 border rounded"
       />
       <button className="bg-blue-500" type="submit">
         Add
