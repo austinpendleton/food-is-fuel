@@ -6,10 +6,32 @@ const GoalPage = ({ setGoal }) => {
   const [height, setHeight] = useState("");
   const [weight, setWeight] = useState("");
   const [fitnessGoal, setFitnessGoal] = useState("");
+
   const navigate = useNavigate();
+
+  const calculateCalorieGoal = (age, height, weight, fitnessGoal) => {
+    const bmr = 10 * weight + 6.25 * height - 5 * age + 5;
+
+    let calorieGoal;
+    switch (fitnessGoal) {
+      case "lose weight":
+        calorieGoal = bmr - 500;
+        break;
+      case "gain weight":
+        calorieGoal = bmr + 500;
+        break;
+      case "maintain":
+        calorieGoal = bmr;
+        break;
+      default:
+        calorieGoal = bmr;
+    }
+    return calorieGoal;
+  };
 
   const handleSubmit = (e) => {
     e.preventDefault();
+    const calorieGoal = calculateCalorieGoal(age, height, weight, fitnessGoal);
     setGoal({ age, height, weight, fitnessGoal });
     navigate("/");
   };
