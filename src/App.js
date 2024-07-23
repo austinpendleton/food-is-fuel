@@ -77,6 +77,7 @@ const App = () => {
                     <p>Height: {goal.height} cm</p>
                     <p>Weight: {goal.weight} kg</p>
                     <p>Goal: {goal.fitnessGoal}</p>
+                    <p>Calorie Goal: {goal.calorieGoal} kcal</p>
                   </div>
                 )}
               </>
