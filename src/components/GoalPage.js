@@ -26,13 +26,13 @@ const GoalPage = ({ setGoal }) => {
       default:
         calorieGoal = bmr;
     }
-    return calorieGoal;
+    return calorieGoal.toFixed(0);
   };
 
   const handleSubmit = (e) => {
     e.preventDefault();
     const calorieGoal = calculateCalorieGoal(age, height, weight, fitnessGoal);
-    setGoal({ age, height, weight, fitnessGoal });
+    setGoal({ age, height, weight, fitnessGoal, calorieGoal });
     navigate("/");
   };
 
