@@ -41,10 +41,14 @@ const App = () => {
       <div className="max-w-lg mx-auto p-4 flex flex-col items-center">
         <Header />
         <nav className="mb-4">
-          <Link to="/" className="mr-4" style={{ color: "#ff6f61" }}>
+          <Link to="/" className="mr-4 text-2xl" style={{ color: "#ff6f61" }}>
             Home
           </Link>
-          <Link to="/goal" className="mr-4" style={{ color: "#ff6f61" }}>
+          <Link
+            to="/goal"
+            className="ml-4 text-2xl"
+            style={{ color: "#ff6f61" }}
+          >
             Set Goal
           </Link>
         </nav>
