@@ -78,7 +78,8 @@ const GoalPage = ({ setGoal }) => {
       </select>
       <button
         type="submit"
-        className="bg-blue-500 text-white py-2 px-4 rounded"
+        className="bg-pink-500 text-white py-2 px-4 rounded mb-4 font-playwrite"
+        style={{ backgroundColor: "#ff6f61" }}
       >
         {" "}
         Set Goal
