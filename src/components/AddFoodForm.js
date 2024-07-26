@@ -28,9 +28,9 @@ const AddFoodForm = ({ onAddFood }) => {
         className="input-box w-6/12 px-4 py-2 border rounded"
       />
       <button
-        className="bg-pink-500 text-white py-2 px-4 rounded"
-        style={{ backgroundColor: "#ff6f61" }}
         type="submit"
+        className="bg-pink-500 text-white py-2 px-4 rounded mb-4 font-playwrite"
+        style={{ backgroundColor: "#ff6f61" }}
       >
         Add
       </button>
