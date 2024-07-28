@@ -36,6 +36,12 @@ const App = () => {
     setShowExerciseForm(!showExerciseForm);
   };
 
+  const resetApp = () => {
+    setFoods([]);
+    setExercises([]);
+    setTotalCalories(0);
+  };
+
   return (
     <Router>
       <div className="max-w-lg mx-auto p-4 flex flex-col items-center">
@@ -72,6 +78,16 @@ const App = () => {
                 )}
                 <ExerciseList exercises={exercises} />
                 <TotalCalories total={totalCalories} />
+                <button
+                  onClick={resetApp}
+                  className="bg-pink-500 text-white py-2 px-4 rounded mb-4"
+                  style={{
+                    backgroundColor: "#ff6f61",
+                    fontFamily: "Playfair Display, sans-serif",
+                  }}
+                >
+                  Reset
+                </button>
                 {goal.fitnessGoal && (
                   <div className="mt-4 p-4 border rounded">
                     <h2 className="text-xl font-semibold mb-2">
