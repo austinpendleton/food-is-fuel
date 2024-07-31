@@ -7,6 +7,7 @@ import TotalCalories from "./components/TotalCalories";
 import DateDisplay from "./components/DateDisplay";
 import AddExerciseForm from "./components/AddExerciseForm";
 import GoalPage from "./components/GoalPage";
+import Footer from "./components/Footer";
 import "./blocks/App.css";
 
 const App = () => {
@@ -115,6 +116,7 @@ const App = () => {
           />
           <Route path="/goal" element={<GoalPage setGoal={setGoal} />} />
         </Routes>
+        <Footer />
       </div>
     </Router>
   );
