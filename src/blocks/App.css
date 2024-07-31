@@ -1,12 +1,26 @@
-.App {
-  text-align: center;
-  padding: 20px;
-}
-
 form {
   margin-bottom: 20px;
 }
 
 input {
   margin-right: 10px;
+}
+
+html,
+body,
+#root {
+  height: 100%;
+  margin: 0;
+}
+
+.App {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  text-align: center;
+  padding: 20px;
+}
+
+.content {
+  flex: 1;
 }
