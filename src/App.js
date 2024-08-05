@@ -83,7 +83,7 @@ const App = () => {
                   <AddFoodForm onAddFood={addFood} />
                   <button
                     onClick={toggleExerciseForm}
-                    className="bg-pink-500 text-white py-2 px-4 rounded mb-4"
+                    className="bg-pink-500 text-white py-2 px-4 rounded mb-4 font-playwrite"
                     style={{ backgroundColor: "#ff6f61" }}
                   >
                     {showExerciseForm ? "Hide Exercise Form" : "Add Exercise"}
@@ -95,10 +95,9 @@ const App = () => {
                   <TotalCalories total={totalCalories} />
                   <button
                     onClick={resetApp}
-                    className="bg-pink-500 text-white py-2 px-4 rounded mb-4"
+                    className="bg-pink-500 text-white py-2 px-4 rounded mb-4 font-playwrite"
                     style={{
                       backgroundColor: "#ff6f61",
-                      fontFamily: "Playfair Display, sans-serif",
                     }}
                   >
                     Reset
