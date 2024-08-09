@@ -12,6 +12,18 @@ body,
   height: 100%;
   margin: 0;
 }
+footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  padding: 1rem;
+}
+
+footer div {
+  flex: none;
+  text-align: center;
+}
 
 .App {
   display: flex;
